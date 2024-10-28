@@ -1,0 +1,26 @@
+speech_recognition
+
+
+High-Level Speech Recognition: This library provides a high-level API to perform speech-to-text conversion.
+Support for Multiple Engines: It supports various speech recognition engines like Google Speech Recognition, Sphinx, and others, offering flexibility and robustness.
+Audio File and Microphone Input: It can process both pre-recorded audio files and live audio input from microphones.
+Error Handling and Optimization: The library includes features to handle potential errors and optimize performance.
+
+----------------------------
+
+PyAudio 
+
+
+Audio Input: PyAudio provides the interface to access your system's audio input devices, such as microphones.
+Real-time Audio Streaming: It enables real-time capture of audio data, which is essential for voice recognition applications.
+Low-Level Audio Processing: PyAudio offers fine-grained control over audio streams, allowing for advanced audio processing techniques if needed.
+
+----------------------------
+
+
+#Installing requirements
+Using pip (Recommended)
+
+1. Open your terminal or command prompt.
+2. Install SpeechRecognition: pip install SpeechRecognition
+3. Install PyAudio: pip install PyAudio
